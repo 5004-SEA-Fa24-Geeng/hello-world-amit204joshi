@@ -1,8 +1,8 @@
-**Name:**
+**Name:LU ZHANG**
 
-**Github Account name:**
+**Github Account name: amit204joshi**
 
-**Link to Assignment on Github:** (copy and paste the link to your assignment repo here)
+**Link to Assignment on Github:https://github.com/5004-SEA-Fa24-Geeng/hello-world-amit204joshi** (copy and paste the link to your assignment repo here)
 
 How many hours did it take you to complete this assignment (estimate)?
 
