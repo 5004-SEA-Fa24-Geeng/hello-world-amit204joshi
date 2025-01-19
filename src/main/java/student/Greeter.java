@@ -65,7 +65,7 @@ public class Greeter {
 
     /**
      * Returns the name of the greeter.
-     *
+     *+
      * This is called an "accessor" method. It is a method that
      * returns the value of a private field. It is a good practice
      * to make fields private and use accessors to get the value.
@@ -73,7 +73,7 @@ public class Greeter {
      * @return the name of the greeter
      */
     public String getName() {
-        return name
+        return name;
     }
 
     /**
@@ -192,11 +192,11 @@ public class Greeter {
         if (locality < 1 || locality >= localityList.size()) {
             return "USA";
         }
-        return localityList.get(locality);
+        return localityList.get(locality-1);
     }
 
     /**
-     * For new objects is is often a good idea to override the hashCode method.
+     * For new objects it is often a good idea to override the hashCode method.
      *
      * HashCodes are used in various data structures (like hashtables) to provide a 'unique'
      * identifier for an object. In this case as long as the name and locality are the same, the
@@ -212,7 +212,7 @@ public class Greeter {
     }
 
     /**
-     * For new objects is is often a good idea to override the equals method.
+     * For new objects it is often a good idea to override the equals method.
      *
      * In this case, we can compare two greeter objects and if the name and the locality are the
      * same, they are treated as the same object. Without this, it would actually compare the memory

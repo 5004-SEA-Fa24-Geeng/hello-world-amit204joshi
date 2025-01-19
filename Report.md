@@ -4,14 +4,15 @@ The following report contains questions you need to answer as part of your submi
 
 
 ## Design Doc
-Please link your UML design file here. See resources in the assignment on how to
+Please link your UML design file here. [![UML Diagram](hw01&02%20UML%20Diagram.png)] See resources in the assignment on how to
 link an image in markdown. You may also use [mermaid] class diagrams if you prefer, if so, include the mermaid code here.  You DO NOT have to include Greeting.java as part of the diagram, just the AlohaWorld application that includes: [AlohaWorld.java], [Greeter.java], and [ConsoleView.java].
 
 
 
 ### Program Flow
-Write a short paragraph detailing the flow of the program in your own words. This is to help you understand / trace the code (and give you practice of something called a code walk that will be required in this course).
+Write a short paragraph detailing the flow of the program in your own words. This is to help you understand / trace the code (and give you practice of something called a code walk that will be required in this course). 
 
+This program begins with the main method in AlohaWorld class, which prompts the user to get the name and ask the user to select a locality from a list using ConsoleView class. After that, it instantiates a Greeter class using the name and locality. Then it gets the greeting message using greet method of the greeter object and calls the printGreeting function in ConsoleView class to print the greeting message. After the initial greeting, the program would prompt the user to ask if the user want to be greeted again. If the user chooses yes, it would prompt the user to change the locality and update the greeting message. If the user chooses no, the program would end.
 
 ## Assignment Questions
 
