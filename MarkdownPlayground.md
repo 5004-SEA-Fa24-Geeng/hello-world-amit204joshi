@@ -40,13 +40,13 @@ classDiagram
     class Employee{
         - id: String
         - person: Person
-        + get_id: String
-        + get_person: Person
+        + get_id(): String
+        + get_person(): Person
     }
     class Person{
         - firstName: String
         - lastName: String
-        + get_firstName: String
-        + get_lastName: String
+        + get_firstName(): String
+        + get_lastName(): String
     }
 ```
