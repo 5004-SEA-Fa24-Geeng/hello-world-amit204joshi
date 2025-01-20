@@ -198,7 +198,6 @@ public class Greeter {
      * identifier for an object. In this case as long as the name and locality are the same, the
      * hashcode will be the same.
      * Java assumes that if .equals is true, the hashcodes should also be the same.
-     * 
      * @return the hashcode
      */
     @Override

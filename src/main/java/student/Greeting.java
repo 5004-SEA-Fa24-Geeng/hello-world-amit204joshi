@@ -9,16 +9,16 @@ public class Greeting {
     /**int value of locality.*/
     private int localityID;
 
-    /**String value of locality name*/
+    /**String value of locality name.*/
     private String localityName;
 
-    /**String value of ascii greeting*/
+    /**String value of ascii greeting.*/
     private String asciiGreeting;
 
-    /**String value of unicode greeting*/
+    /**String value of unicode greeting.*/
     private String unicodeGreeting;
 
-    /**String value of format string*/
+    /**String value of format string.*/
     private String formatStr;
 
     /**
