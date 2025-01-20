@@ -21,3 +21,32 @@ Mermaid is a markdown language that allows you to create diagrams. You can find 
 
 <!-- start your playground code under this dashed line -->
 ----
+* `Headings`
+### Homework01
+
+* `Paragraphs`
+<p>I really like using Markdown.</p>
+
+* `Bold`
+<p>I just love <strong>bold text</strong>.</p>
+
+```mermaid
+---
+title: Demo UML
+---
+classDiagram
+    direction LR
+    Employee --> Person
+    class Employee{
+        - id: String
+        - person: Person
+        + get_id: String
+        + get_person: Person
+    }
+    class Person{
+        - firstName: String
+        - lastName: String
+        + get_firstName: String
+        + get_lastName: String
+    }
+```
