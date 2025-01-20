@@ -1,15 +1,24 @@
 package student;
 
 /**
- * This class is a place holder which you will fully implement based on the javadoc
+ * This class is a place holder which you will fully implement based on the javadoc.
  * <p>
  * https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html
  */
 public class Greeting {
+    /**int value of locality.*/
     private int localityID;
+
+    /**String value of locality name*/
     private String localityName;
+
+    /**String value of ascii greeting*/
     private String asciiGreeting;
+
+    /**String value of unicode greeting*/
     private String unicodeGreeting;
+
+    /**String value of format string*/
     private String formatStr;
 
     /**
@@ -23,7 +32,9 @@ public class Greeting {
     }
 
     /**
-     * Greeting that creates a greeting with ascii and unicode characters assuming the language is already using ascii letters only. It also assumes the format of the greeting to be "{greeting}, {name}!"
+     * Greeting that creates a greeting with ascii and unicode characters assuming
+     * the language is already using ascii letters only.
+     * It also assumes the format of the greeting to be "{greeting}, {name}!"
      *
      * @param localityID   id of the locality
      * @param localityName name of the locality
@@ -35,7 +46,8 @@ public class Greeting {
     }
 
     /**
-     * Greeting that creates a greeting with ascii and unicode characters. It makes no assumptions and everything needs to be provided.
+     * Greeting that creates a greeting with ascii and unicode characters.
+     * It makes no assumptions and everything needs to be provided.
      *
      * @param localityID      id of the locality
      * @param localityName    name of the locality
@@ -117,10 +129,10 @@ public class Greeting {
      */
     @Override
     public String toString() {
-        return "{" + "localityID:" + localityID +
-                ", localityName:\"" + localityName + '\"' +
-                ", asciiGreeting:\"" + asciiGreeting + '\"' +
-                ", unicodeGreeting:\"" + unicodeGreeting + '\"' + "}";
+        return "{" + "localityID:" + localityID
+                + ", localityName:\"" + localityName + '\"'
+                + ", asciiGreeting:\"" + asciiGreeting + '\"'
+                + ", unicodeGreeting:\"" + unicodeGreeting + '\"' + "}";
     }
 
 }
